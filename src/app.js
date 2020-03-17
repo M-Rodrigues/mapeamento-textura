@@ -101,12 +101,12 @@
     return final
   }
 
-  const config = require('./ex1.json')
+  const config = require('./ex2.json')
 
   const original = await Jimp.read(config.image_url)  
   const texture  = await Jimp.read(config.texture_url) 
 
   const final = applyTexture(texture, original, config.region)
   
-  await final.writeAsync(`assets/${config.name}.jpeg`)
+  await final.writeAsync(`src/assets/${config.name}.jpeg`)
 })()

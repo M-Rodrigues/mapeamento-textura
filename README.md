@@ -17,4 +17,11 @@ Este deve conter os seguintes atributos:
 - **region**: Um array com 4 elementos representando os vertices da imagem origem que levaram a textura. 
 A orientacao desses pontos importa, de forma que o primeiro deve ser o do canto superior esquerdo e devem se seguir no sentido horario.
 
+Criado seu arquivo json de configuracao, alterer o arquivo ```app.js``` para que ele carregue o arquivo de configuracao desejado.
+``` js
+...
+const config = require('./ex2.json') // Linha 104
+...
+```
+
 Feito isso, basta executar o commando ```npm run start``` e verificar a imagem modificada dentro da pasta ```assets```

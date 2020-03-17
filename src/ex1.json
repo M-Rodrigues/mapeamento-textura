@@ -1,7 +1,7 @@
 {
   "name": "ex1",
-  "image_url": "assets/o1.jpeg",
-  "texture_url": "assets/t1.jpeg",
+  "image_url": "src/assets/o1.jpeg",
+  "texture_url": "src/assets/t1.jpeg",
   "region": [
     [573, 303],
     [839, 249],
