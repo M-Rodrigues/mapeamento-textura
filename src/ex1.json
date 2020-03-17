@@ -1,0 +1,11 @@
+{
+  "name": "ex1",
+  "image_url": "assets/o1.jpeg",
+  "texture_url": "assets/t1.jpeg",
+  "region": [
+    [78, 380],
+    [455, 311],
+    [447, 531],
+    [83, 628]
+  ]
+}
